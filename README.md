@@ -32,3 +32,9 @@ bash 3_fairseq_preprocess.sh [train_data_path] --sp [vocab_size]
 bash 4_fairseq_train.sh [train_data_path] transformer --sp [vocab_size]
 bash 5_fairseq_generate.sh [train_data_path] transformer --sp [vocab_size]
 ```
+
+
+### Reference.
+* https://github.com/pytorch/fairseq
+* https://github.com/kakaobrain/jejueo/tree/master/translation
+* https://github.com/rsennrich/subword-nmt
