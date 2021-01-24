@@ -5,9 +5,16 @@ Fairseq scripts that can use to train NMT with various models and tokenizing (bp
 ## How to use
 1. Prepare a parallel corpus (raw data)
 2. Write data parsing and cleansing code in "make_nmt_data".
-3. 
-4. Execute scripts below
-
+3. Clone submodule (fairseq, subword-nmt)
+```bash
+git submodule init
+git submodule update 
+```
+4. Install sentencepiece
+```bash
+pip install sentencepiece
+```
+5. Execute scripts below
 ### BPE
 ```bash
 bash 1_prepare_nmt_data.sh [raw_data] [train_data_path]
